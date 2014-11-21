@@ -20,6 +20,22 @@ app.get('/api/products', function (req, res, next) {
 });
 ```
 
+## Instalation
+
+```bash
+$ npm install next-error --save
+```
+
+In `app.js`,
+
+```js
+var nextError = require('next-error');
+
+app.use(nextError());
+```
+
+In code, you can replace `if / return` statement with `next.ifError()` call.
+
 ## License
 
 The MIT License (MIT)

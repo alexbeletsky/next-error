@@ -1,0 +1,28 @@
+{
+  "name": "next-error",
+  "version": "0.0.0",
+  "description": "Express.js module that would which eliminates error checks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexanderbeletsky/next-error.git"
+  },
+  "keywords": [
+    "expressjs",
+    "next",
+    "error",
+    "errorhandling"
+  ],
+  "author": "alexander.beletsky@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexanderbeletsky/next-error/issues"
+  },
+  "homepage": "https://github.com/alexanderbeletsky/next-error",
+  "dependencies": {
+    "trycatch": "^1.5.11"
+  }
+}

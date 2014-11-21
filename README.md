@@ -1,5 +1,25 @@
 # next-error
 
+Express.js module that would which eliminates a lot of,
+
+```js
+	if (err) {
+		retunr next(err)
+	}
+```
+
+and allows to handle errors like,
+
+```js
+app.get('/api/products', function (req, res, next) {
+	products.fetch(function (err, products) {
+		next.ifError(err);
+
+		res.json(productions)
+	});
+});
+```
+
 ## License
 
 The MIT License (MIT)

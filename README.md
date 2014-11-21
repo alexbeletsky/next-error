@@ -3,9 +3,9 @@
 Express.js module that would which eliminates a lot of,
 
 ```js
-	if (err) {
-		return next(err)
-	}
+if (err) {
+	return next(err)
+}
 ```
 
 and allows to handle errors like,

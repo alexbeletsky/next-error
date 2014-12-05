@@ -20,7 +20,7 @@ app.get('/api/products', function (req, res, next) {
 });
 ```
 
-## Instalation
+## Installation
 
 ```bash
 $ npm install next-error --save
